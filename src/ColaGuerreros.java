@@ -1,3 +1,3 @@
-public class ColaGuerreros {
+public class ColaGuerreros includes Guerrero {
 
 }
