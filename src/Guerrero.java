@@ -27,41 +27,21 @@ public class Guerrero {
                 "Nivel de Poder: " + nivelPoder + "\n" +
                 "Habilidad: " + habilidad;
     }
-    public void encolarGuerrero(){
-
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getRaza() {
-        return raza;
-    }
-
-    public int getNivelPoder() {
-        return nivelPoder;
-    }
-
-    public String getHabilidad() {
-        return habilidad;
-    }
 
     public int calculoPoder() {
-        double resultadoNivelPoder;
 
-        if (raza.equals("Saiyajin")) {
-            resultadoNivelPoder = nivelPoder * 1.5;
-            return (int) resultadoNivelPoder;
-        } else if (raza.equals("Namekusein")) {
-            resultadoNivelPoder = nivelPoder * 1.2;
-            return (int) resultadoNivelPoder;
-        } else if (raza.equals("Terricola")) {
-            resultadoNivelPoder = nivelPoder * 1;
-            return (int) resultadoNivelPoder;
-        } else {
-            System.out.println("Raza no encontrada");
-            return -1;
-        }
+        double resultadoNivelPoder = switch (raza) {
+            case "Saiyajin" -> nivelPoder * 1.5;
+            case "Namekusein" -> nivelPoder * 1.2;
+            case "Terricola" -> nivelPoder;
+            default -> nivelPoder;
+        };
+        return (int) resultadoNivelPoder;
     }
+
+    public String getNombre() { return nombre; }
+    public String getRaza() { return raza; }
+    public int getNivelPoder() { return nivelPoder; }
+    public String getHabilidad() { return habilidad; }
+
 }
