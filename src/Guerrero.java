@@ -18,11 +18,17 @@ public class Guerrero {
         this.habilidad = habilidad;
     }
 
+
+
+
     public String mostrarInfo() {
         return "Nombre: " + nombre + "\n" +
                 "Raza: " + raza + "\n" +
                 "Nivel de Poder: " + nivelPoder + "\n" +
                 "Habilidad: " + habilidad;
+    }
+    public void encolarGuerrero(){
+
     }
 
     public String getNombre() {
