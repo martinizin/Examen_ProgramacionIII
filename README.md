@@ -31,6 +31,11 @@ Este método debe desplegar todos los datos del guerrero
 
 ![image](https://github.com/user-attachments/assets/8aae059f-2cf7-4191-a14c-54b81d861fcd)
 
+
+Al presionar el boton *CALCULAR PODER*, se calcula el poder de todos los guerreros agregados:
+
+![image](https://github.com/user-attachments/assets/21dc228f-d31b-4216-96ae-b77799097cf1)
+
 # METODO 3
 Método para copiar en Una nueva cola los objetos de Guerrero de una habilidad específica. 
 Esta nueva cola debe contener los mismos guerreros que la cola original, sin eliminar los valores originales.
