@@ -62,7 +62,7 @@ public class examenGUI {
             public void actionPerformed(ActionEvent e) {
                 String habilidad = habilidadF.getText();
                 if (habilidad.isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "Ingrese una habilidad para copiar guerreros.");
+                    JOptionPane.showMessageDialog(null, "Ingrese la habilidad del guerrero que desea copiar: ");
                     return;
                 }
                 String infoColas = colaGuerreros.copiarGuerrerosPorHabilidad(habilidad);

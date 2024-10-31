@@ -27,7 +27,7 @@ public class Guerrero {
                 "Nivel de Poder: " + nivelPoder + "\n" +
                 "Habilidad: " + habilidad;
     }
-
+//Segundo método
     public int calculoPoder() {
 
         double resultadoNivelPoder = switch (raza) {

@@ -43,7 +43,7 @@ public class ColaGuerreros  {
         }
         JOptionPane.showMessageDialog(null, infoPoder.toString(), "Nivel de Poder de Guerreros", JOptionPane.INFORMATION_MESSAGE);
     }
-    // Método R3: Copiar guerreros de una habilidad específica a una nueva cola y mostrar ambas colas
+    // Método 2 Copiar guerreros de una habilidad específica a una nueva cola y mostrar ambas colas
     public String copiarGuerrerosPorHabilidad(String habilidad) {
         colaCopia = new LinkedList<>();
         for (Guerrero guerrero : cola) {
