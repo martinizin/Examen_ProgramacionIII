@@ -13,6 +13,7 @@ public class examenGUI {
     private JButton calcularPoderButton;
     private JButton copiarGuerreroButton;
     private JPanel pGeneral;
+    private JScrollBar scrollBar2;
     private ColaGuerreros colaGuerreros;
 
     public examenGUI() {
